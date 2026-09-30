@@ -70,8 +70,8 @@ begin
         break;
       end
       else if (answer = 'Y') or (answer = 'y') then
-        break;
       begin
+        break;
       end;
     end;
   end;
