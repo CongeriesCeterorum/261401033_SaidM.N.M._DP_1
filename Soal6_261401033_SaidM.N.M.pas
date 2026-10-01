@@ -33,7 +33,7 @@ begin
     write('Kehadiran    [0 - 10] : '); readln(kehadiran);
   end;
 
-  nilaiAkhir := (nilaiTugas + nilaiUTS + nilaiUAS) / 3;
+  nilaiAkhir := (nilaiTugas * 0.3) + (nilaiUTS * 0.3) + (nilaiUAS * 0.4) ;
 
   if (nilaiAkhir >= 85) then
   begin
