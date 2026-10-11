@@ -20,7 +20,7 @@ begin
   while ( true ) do
   begin
     write('Input Bulan (1-12): '); readln( bulan );
-    if ( bulan >= 0 ) and ( bulan <= 12 ) then
+    if ( bulan >= 1 ) and ( bulan <= 12 ) then
     begin
       break;
     end;
